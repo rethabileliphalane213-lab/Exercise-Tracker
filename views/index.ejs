@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><%= title %></title>
+    </head>
+    <body>
+        <h1> <%= title %></h1>
+        <form action="/create" method="POST" >
+            <div>
+                <label for="user">User's name</label>
+                <input type="text" name="user" id="user" />
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
